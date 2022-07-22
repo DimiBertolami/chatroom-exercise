@@ -1,29 +1,16 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "My first package.json",
-  "main": "server.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "console.log()\u001b[D''\u001b[Dhi');",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/DimiBertolami/chatroom-exercise.git"
-  },
-  "keywords": [
-    "chatroom",
-    "exercise",
-    "in",
-    "node"
-  ],
-  "author": "Dimi Bertolami",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/DimiBertolami/chatroom-exercise/issues"
-  },
-  "homepage": "https://github.com/DimiBertolami/chatroom-exercise#readme",
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "socket.io": "^4.5.1"
   }
 }
